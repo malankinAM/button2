@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,500;1,700&display=swap');
+
+*{
+    font-family:"Lora"sans-serif ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    background: #060911;
+}
+div{
+    margin: 90px;
+}
+a{
+    position: relative;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 50px;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0,0,0, .5);
+    overflow: hidden;
+}
+
+
+a:hover{
+    box-shadow:0 0 10px #ff00ff,
+    0 0 20px #ff00ff ,
+    0 0 40px #ff00ff ,
+    0 0 60px #ff00ff ;
+}
+
+a span{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: linear-gradient(#000, #ff00ff,#000,#ff00ff);
+    width: 100%;
+    height: 230%;
+    z-index: -1;
+    transition: .5s;
+}
+a:hover span{
+    top: -30%
+}
+
+
+a .g{
+    position: relative;
+    display: inline-block;
+    color: #00ff55;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 50px;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0,0,0, .5);
+    overflow: hidden;
+}
+
+
+a:hover.g{
+    box-shadow:0 0 10px #00ff55,
+    0 0 20px #00ff55 ,
+    0 0 40px #00ff55 ,
+    0 0 60px #00ff55 ;
+}
+
+a span.g{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: linear-gradient(#000, #00ff55,#000,#00ff55);
+    width: 100%;
+    height: 230%;
+    z-index: -1;
+    transition: .5s;
+}
+a:hover span.g{
+    top: -30%
+}
